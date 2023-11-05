@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: white;
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box{
+    max-width: 450px;
+    width: 90%;
+    margin: auto;
+    background-color: #130f40;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.show-password{
+    background-color:#4d50a5;
+    padding-left: 10px;
+}
+
+.checkbox-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .checkbox-item {
+    display: flex;
+    align-items: center;
+    width: 40%; 
+    
+  }
+  
+  .column {
+    flex: 1;
+    padding: 5px; 
+  }  
+
+input{
+    width: 100%;
+}
+
+.errorMessage{
+    color: tomato;
+}
+
+.btns{
+    padding: 15px 20px;
+    background-color: #686de0;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btns:hover{
+    background-color: #4834d4;
+}
